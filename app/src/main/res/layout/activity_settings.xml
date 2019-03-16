@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".view.activitys.SettingsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/change_language"
+        android:textAlignment="center"
+        android:padding="@dimen/start"
+        android:textSize="27sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/br"
+        android:layout_marginStart="@dimen/qr1"
+        android:layout_marginTop="@dimen/start"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_marginEnd="@dimen/qr1"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:drawableLeft="@drawable/change_password"
+            android:drawableStart="@drawable/change_password"
+            android:text="@string/change_password"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:drawablePadding="15dp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/br"
+        android:layout_marginStart="@dimen/qr1"
+        android:layout_marginTop="@dimen/start"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_marginEnd="@dimen/qr1"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/change_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/change_language"
+            android:drawableLeft="@drawable/change_language"
+            android:drawablePadding="15dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/change_language"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/br"
+        android:layout_marginStart="@dimen/qr1"
+        android:layout_marginTop="@dimen/start"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_marginEnd="@dimen/qr1"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/change_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:drawableLeft="@drawable/change_name"
+            android:drawableStart="@drawable/change_name"
+            android:text="@string/change_name"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:drawablePadding="15dp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

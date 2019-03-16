@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">MyTaxi</string>
+    <string name="AppName">MyTaxi</string>
+    <string name="d">TODO</string>
+    <string name="instant_validation">(instant validation)</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="signed_in">Signed In</string>
+    <string name="status_us"> User: %s</string>
+    <string name="logout"> Logout</string>
+    <string name="test"> Test</string>
+    <string name="home">Home</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="todo">TODO</string>
+    <string name="no_internet">No Internet</string>
+    <string name="call_by_phone">Call by Phone</string>
+    <string name="change_state_internet">Change State Internet</string>
+    <string name="text_1">Check your internet connection or order a taxi by phone.</string>
+    <string name="call_taxi">Call a Taxi</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="get_author_driver">Get Author Driver</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="no">No</string>
+    <string name="confirm_the_order">The Driver Came Up To The Destination</string>
+    <string name="confirm_the_call">Confirm The Call</string>
+    <string name="confirm_completion">Confirm Completion</string>
+    <string name="successfully">Success</string>
+    <string name="search_view_hint">Enter address</string>
+    <string name="error_get_location">Could not determine location</string>
+    <string name="coordinates_are_not_yet_determinate">Coordinates not defined, repeat later.</string>
+    <string name="enter_rating">Enter Rating</string>
+    <string name="title_activity_auth_email">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="password_is_incorrect">Password Is Incorrect</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."
+    </string>
+    <string name="name">Name</string>
+    <string name="code">Code</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_language">Change Language</string>
+    <string name="change_name">Change Name</string>
+    <string name="your_password">Your Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+
+</resources>
